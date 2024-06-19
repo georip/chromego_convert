@@ -11,9 +11,9 @@ profile:
   tracing: true
 global-client-fingerprint: chrome
 proxies:
-  - name: Unknown 🇺🇳-vmess | 0-1
+  - name: 🏳 Unknown-vmess | 0-1
     type: vmess
-    server: fbi.gov
+    server: 104.16.148.244
     port: 8080
     uuid: ffaba3ee-4070-4590-9959-d863f9a4c6de
     alterId: 0
@@ -71,6 +71,126 @@ proxies:
       path: /9aqOiXD2/
       headers:
         Host: ip001.freegradely.xyz
+  - name: 🏳 Unknown-vmess | 1-1
+    type: vmess
+    server: 162.159.129.179
+    port: 443
+    uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    network: ws
+    servername: remaining-criminal-douglas-idol.trycloudflare.com
+    ws-opts:
+      path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+      headers:
+        Host: remaining-criminal-douglas-idol.trycloudflare.com
+  - name: CA 🇨🇦-vmess | 1-2
+    type: vmess
+    server: 23.227.38.3
+    port: 8880
+    uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: remaining-criminal-douglas-idol.trycloudflare.com
+    ws-opts:
+      path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+      headers:
+        Host: remaining-criminal-douglas-idol.trycloudflare.com
+  - name: 🏳 Unknown-vmess | 1-3
+    type: vmess
+    server: 141.101.122.184
+    port: 8443
+    uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    network: ws
+    servername: remaining-criminal-douglas-idol.trycloudflare.com
+    ws-opts:
+      path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+      headers:
+        Host: remaining-criminal-douglas-idol.trycloudflare.com
+  - name: 🏳 Unknown-vmess | 1-4
+    type: vmess
+    server: 104.19.38.112
+    port: 8880
+    uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: remaining-criminal-douglas-idol.trycloudflare.com
+    ws-opts:
+      path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+      headers:
+        Host: remaining-criminal-douglas-idol.trycloudflare.com
+  - name: 🏳 Unknown-vmess | 2-1
+    type: vmess
+    server: 104.19.51.232
+    port: 2086
+    uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: ip002.freegradely.xyz
+    ws-opts:
+      path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
+      headers:
+        Host: ip002.freegradely.xyz
+  - name: CA 🇨🇦-vmess | 2-2
+    type: vmess
+    server: 23.227.38.5
+    port: 2086
+    uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: ip002.freegradely.xyz
+    ws-opts:
+      path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
+      headers:
+        Host: ip002.freegradely.xyz
+  - name: 🏳 Unknown-vmess | 2-3
+    type: vmess
+    server: 104.16.148.244
+    port: 2086
+    uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: ip002.freegradely.xyz
+    ws-opts:
+      path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
+      headers:
+        Host: ip002.freegradely.xyz
+  - name: 🏳 Unknown-vmess | 2-4
+    type: vmess
+    server: 104.19.38.62
+    port: 2086
+    uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: ip002.freegradely.xyz
+    ws-opts:
+      path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
+      headers:
+        Host: ip002.freegradely.xyz
   - name: 🏳 Unknown-vmess | 3-1
     type: vmess
     server: 104.26.9.22
@@ -131,6 +251,66 @@ proxies:
       path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
       headers:
         host: luther-soon-uploaded-anxiety.trycloudflare.com
+  - name: 🏳 Unknown-vmess | 4-1
+    type: vmess
+    server: 104.16.148.244
+    port: 2086
+    uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: ip002.freegradely.xyz
+    ws-opts:
+      path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
+      headers:
+        Host: ip002.freegradely.xyz
+  - name: CA 🇨🇦-vmess | 4-2
+    type: vmess
+    server: 23.227.38.6
+    port: 2086
+    uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: ip002.freegradely.xyz
+    ws-opts:
+      path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
+      headers:
+        Host: ip002.freegradely.xyz
+  - name: 🏳 Unknown-vmess | 4-3
+    type: vmess
+    server: 104.19.51.232
+    port: 2086
+    uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: ip002.freegradely.xyz
+    ws-opts:
+      path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
+      headers:
+        Host: ip002.freegradely.xyz
+  - name: 🏳 Unknown-vmess | 4-4
+    type: vmess
+    server: 104.19.38.62
+    port: 2086
+    uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: ip002.freegradely.xyz
+    ws-opts:
+      path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
+      headers:
+        Host: ip002.freegradely.xyz
   - name: US 🇺🇸-vless | 5-1
     type: vless
     server: 109.104.152.101
@@ -150,6 +330,29 @@ proxies:
       protocol: h2mux
       max-connections: 1
       min-streams: 4
+      padding: true
+      brutal-opts:
+        enabled: true
+        up: 11
+        down: 55
+  - name: US 🇺🇸-ss | 6-1
+    type: ss
+    server: 109.104.152.186
+    port: 443
+    cipher: 2022-blake3-chacha20-poly1305
+    password: 2mLw+aTguEUrvK/Jamxr4CY/RbLCL/MmfWJQ7c6bXe8=
+    plugin: shadow-tls
+    plugin-opts:
+      host: nijigen-works.jp
+      password: UcMMbVQBzIUAcdC12ju6lV9j3rjK3cAQiZoYCDk1h/g=
+      version: 3
+    smux:
+      enabled: true
+      protocol: smux
+      max-connections: 1
+      min-streams: 4
+      statistic: false
+      only-tcp: false
       padding: true
       brutal-opts:
         enabled: true
@@ -215,6 +418,30 @@ proxies:
       path: /WNh8bXQv/
       headers:
         Host: ip5.freegradely.xyz
+  - name: US 🇺🇸-vless | 8-1
+    type: vless
+    server: 109.104.152.101
+    port: 13982
+    uuid: 85beb960-236b-4634-81ce-6ad66652f928
+    network: tcp
+    udp: true
+    tls: true
+    flow: null
+    servername: itunes.apple.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: HjmsLPRaQqSqtdMMpIpmpoJOKhC0rAOUCHXnz0E89RE
+      short-id: 22f6b74f02cc88a6
+    smux:
+      enabled: true
+      protocol: h2mux
+      max-connections: 1
+      min-streams: 4
+      padding: true
+      brutal-opts:
+        enabled: true
+        up: 11
+        down: 55
   - name: US 🇺🇸-ss | 9-1
     type: ss
     server: 109.104.152.186
@@ -275,6 +502,20 @@ proxies:
     skip-cert-verify: true
     alpn:
       - h3
+  - name: FR 🇫🇷-Hysteria | 3-0
+    type: hysteria
+    server: 62.210.243.131
+    port: 18702
+    ports: 18702
+    auth-str: dongtaiwang.com
+    up: 80
+    down: 100
+    fast-open: true
+    protocol: udp
+    sni: bing.com
+    skip-cert-verify: true
+    alpn:
+      - h3
   - name: US 🇺🇸-Hysteria2 | 0-0
     type: hysteria2
     server: 104.192.224.141
@@ -285,6 +526,21 @@ proxies:
   - name: Unknown 🇺🇳-vless | 1-0
     type: vless
     server: yh4.dtku41.xyz
+    port: 443
+    uuid: ebfdccb6-7416-4b6e-860d-98587344d500
+    tls: true
+    servername: lg1.freessr2.xyz
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /xyakws
+      headers:
+        Host: lg1.freessr2.xyz
+    grpc-opts:
+      serviceName: /
+  - name: Unknown 🇺🇳-vless | 2-0
+    type: vless
+    server: yh1.dtku41.xyz
     port: 443
     uuid: ebfdccb6-7416-4b6e-860d-98587344d500
     tls: true
@@ -318,25 +574,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Unknown 🇺🇳-vmess | 0-1
+      - 🏳 Unknown-vmess | 0-1
       - US 🇺🇸-vmess | 0-2
       - CA 🇨🇦-vmess | 0-3
       - 🏳 Unknown-vmess | 0-4
+      - 🏳 Unknown-vmess | 1-1
+      - CA 🇨🇦-vmess | 1-2
+      - 🏳 Unknown-vmess | 1-3
+      - 🏳 Unknown-vmess | 1-4
+      - 🏳 Unknown-vmess | 2-1
+      - CA 🇨🇦-vmess | 2-2
+      - 🏳 Unknown-vmess | 2-3
+      - 🏳 Unknown-vmess | 2-4
       - 🏳 Unknown-vmess | 3-1
       - US 🇺🇸-vmess | 3-2
       - CA 🇨🇦-vmess | 3-3
       - 🏳 Unknown-vmess | 3-4
+      - 🏳 Unknown-vmess | 4-1
+      - CA 🇨🇦-vmess | 4-2
+      - 🏳 Unknown-vmess | 4-3
+      - 🏳 Unknown-vmess | 4-4
       - US 🇺🇸-vless | 5-1
+      - US 🇺🇸-ss | 6-1
       - 🏳 Unknown-vmess | 7-1
       - CA 🇨🇦-vmess | 7-2
       - US 🇺🇸-vmess | 7-3
       - 🏳 Unknown-vmess | 7-4
+      - US 🇺🇸-vless | 8-1
       - US 🇺🇸-ss | 9-1
       - FR 🇫🇷-Hysteria | 0-0
       - FR 🇫🇷-Hysteria | 1-0
       - FR 🇫🇷-Hysteria | 2-0
+      - FR 🇫🇷-Hysteria | 3-0
       - US 🇺🇸-Hysteria2 | 0-0
       - Unknown 🇺🇳-vless | 1-0
+      - Unknown 🇺🇳-vless | 2-0
       - Unknown 🇺🇳-vless | 3-0
   - name: ♻️ 自动选择
     type: url-test
@@ -344,25 +616,41 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - Unknown 🇺🇳-vmess | 0-1
+      - 🏳 Unknown-vmess | 0-1
       - US 🇺🇸-vmess | 0-2
       - CA 🇨🇦-vmess | 0-3
       - 🏳 Unknown-vmess | 0-4
+      - 🏳 Unknown-vmess | 1-1
+      - CA 🇨🇦-vmess | 1-2
+      - 🏳 Unknown-vmess | 1-3
+      - 🏳 Unknown-vmess | 1-4
+      - 🏳 Unknown-vmess | 2-1
+      - CA 🇨🇦-vmess | 2-2
+      - 🏳 Unknown-vmess | 2-3
+      - 🏳 Unknown-vmess | 2-4
       - 🏳 Unknown-vmess | 3-1
       - US 🇺🇸-vmess | 3-2
       - CA 🇨🇦-vmess | 3-3
       - 🏳 Unknown-vmess | 3-4
+      - 🏳 Unknown-vmess | 4-1
+      - CA 🇨🇦-vmess | 4-2
+      - 🏳 Unknown-vmess | 4-3
+      - 🏳 Unknown-vmess | 4-4
       - US 🇺🇸-vless | 5-1
+      - US 🇺🇸-ss | 6-1
       - 🏳 Unknown-vmess | 7-1
       - CA 🇨🇦-vmess | 7-2
       - US 🇺🇸-vmess | 7-3
       - 🏳 Unknown-vmess | 7-4
+      - US 🇺🇸-vless | 8-1
       - US 🇺🇸-ss | 9-1
       - FR 🇫🇷-Hysteria | 0-0
       - FR 🇫🇷-Hysteria | 1-0
       - FR 🇫🇷-Hysteria | 2-0
+      - FR 🇫🇷-Hysteria | 3-0
       - US 🇺🇸-Hysteria2 | 0-0
       - Unknown 🇺🇳-vless | 1-0
+      - Unknown 🇺🇳-vless | 2-0
       - Unknown 🇺🇳-vless | 3-0
   - name: 📺 巴哈姆特
     type: select
