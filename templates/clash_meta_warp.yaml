@@ -7648,6 +7648,7 @@ rules:
  - DOMAIN-SUFFIX,xn--55qx5d,🎯 全球直连
  - DOMAIN-SUFFIX,xn--io0a7i,🎯 全球直连
  - DOMAIN-KEYWORD,-cn,🎯 全球直连
+ - DOMAIN-KEYWORD,ir,🎯 全球直连
  - DOMAIN-KEYWORD,360buy,🎯 全球直连
  - DOMAIN-KEYWORD,alicdn,🎯 全球直连
  - DOMAIN-KEYWORD,alimama,🎯 全球直连
@@ -7666,6 +7667,7 @@ rules:
  - DOMAIN-KEYWORD,xiaomi,🎯 全球直连
  - DOMAIN-SUFFIX,360.com,🎯 全球直连
  - DOMAIN-SUFFIX,360kuai.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ir,🎯 全球直连
  - DOMAIN-SUFFIX,360safe.com,🎯 全球直连
  - DOMAIN-SUFFIX,dhrest.com,🎯 全球直连
  - DOMAIN-SUFFIX,qhres.com,🎯 全球直连
