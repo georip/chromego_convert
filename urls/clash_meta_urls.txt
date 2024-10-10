@@ -8,4 +8,3 @@ https://raw.githubusercontent.com/Alvin9999/pac2/master/quick/4/config.yaml
 https://raw.githubusercontent.com/Alvin9999/pac2/master/quick/1/config.yaml
 https://raw.githubusercontent.com/Alvin9999/pac2/master/quick/config.yaml
 https://raw.githubusercontent.com/Alvin9999/pac2/master/quick/3/config.yaml
-https://router-5q3.pages.dev/sub/f192a02d-ac6a-443d-9515-59bade3c4845?app=clash#BPB-Normal
