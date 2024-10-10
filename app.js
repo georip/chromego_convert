@@ -3,7 +3,7 @@
  * Created: April 12, 2024
  * Description: A NodeJS script to Convert ChromeGo Proxies
  * Website: blog.ivwv.site
- * Email: ivwv@ivwv.site
+ * Email: ivwv@ivwv.site 
  */
 
 const yaml = require("js-yaml");
