@@ -13739,6 +13739,13 @@ proxies:
     password: dongtaiwang.com
     sni: www.bing.com
     skip-cert-verify: true
+  - name: US 🇺🇸-Hysteria2 | 1-0
+    type: hysteria2
+    server: 108.181.3.66
+    port: 28751
+    password: dongtaiwang.com
+    sni: www.bing.com
+    skip-cert-verify: true
   - name: 🏳 Unknown-vmess | 0-0
     type: vmess
     server: 104.21.238.36
@@ -13753,7 +13760,7 @@ proxies:
     ws-opts:
       path: github.com/Alvin9999
       headers:
-        Host: ip7.9447609.xyz
+        Host: ip8.9447609.xyz
     grpc-opts:
       serviceName: /
     h2-opts:
@@ -13773,7 +13780,7 @@ proxies:
     ws-opts:
       path: github.com/Alvin9999
       headers:
-        Host: ip7.9447609.xyz
+        Host: ip8.9447609.xyz
     grpc-opts:
       serviceName: /
     h2-opts:
@@ -13793,7 +13800,7 @@ proxies:
     ws-opts:
       path: github.com/Alvin9999
       headers:
-        Host: ip7.9447609.xyz
+        Host: ip8.9447609.xyz
     grpc-opts:
       serviceName: /
     h2-opts:
@@ -13813,7 +13820,7 @@ proxies:
     ws-opts:
       path: github.com/Alvin9999
       headers:
-        Host: ip7.9447609.xyz
+        Host: ip8.9447609.xyz
     grpc-opts:
       serviceName: /
     h2-opts:
@@ -14741,6 +14748,7 @@ proxy-groups:
       - RU 🇷🇺-Hysteria | 2-0
       - RU 🇷🇺-Hysteria | 3-0
       - US 🇺🇸-Hysteria2 | 0-0
+      - US 🇺🇸-Hysteria2 | 1-0
       - 🏳 Unknown-vmess | 0-0
       - 🏳 Unknown-vmess | 1-0
       - 🏳 Unknown-vmess | 2-0
@@ -15666,6 +15674,7 @@ proxy-groups:
       - RU 🇷🇺-Hysteria | 2-0
       - RU 🇷🇺-Hysteria | 3-0
       - US 🇺🇸-Hysteria2 | 0-0
+      - US 🇺🇸-Hysteria2 | 1-0
       - 🏳 Unknown-vmess | 0-0
       - 🏳 Unknown-vmess | 1-0
       - 🏳 Unknown-vmess | 2-0
@@ -16591,6 +16600,7 @@ proxy-groups:
       - RU 🇷🇺-Hysteria | 2-0
       - RU 🇷🇺-Hysteria | 3-0
       - US 🇺🇸-Hysteria2 | 0-0
+      - US 🇺🇸-Hysteria2 | 1-0
       - 🏳 Unknown-vmess | 0-0
       - 🏳 Unknown-vmess | 1-0
       - 🏳 Unknown-vmess | 2-0
