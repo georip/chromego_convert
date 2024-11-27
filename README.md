@@ -12,7 +12,7 @@ A NodeJS script to Convert ChromeGo Proxies
 
 ### 订阅链接：
 
-> 本项目已配置 Github Actions 自动运行，最近提取于：`UTC 2024-11-26 20:38:02`
+> 本项目已配置 Github Actions 自动运行，最近提取于：`UTC 2024-11-27 09:27:13`
 
 - Clash Meta (不带 WARP):
 
