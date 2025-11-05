@@ -118,7 +118,7 @@ proxies:
     down: 55 Mbps
   - name: FR 🇫🇷-hysteria | 7-1
     type: hysteria
-    server: 62.210.127.217
+    server: 62.210.10.186
     port: 50011
     auth-str: dongtaiwang.com
     sni: apple.com
@@ -130,7 +130,7 @@ proxies:
     down: 55 Mbps
   - name: FR 🇫🇷-hysteria | 8-1
     type: hysteria
-    server: 62.210.127.217
+    server: 2001:bc8:32d7:158::2
     port: 50011
     auth-str: dongtaiwang.com
     sni: apple.com
@@ -152,10 +152,10 @@ proxies:
     protocol: udp
     up: 11 Mbps
     down: 55 Mbps
-  - name: NL 🇳🇱-Hysteria | 0-0
+  - name: LU 🇱🇺-Hysteria | 0-0
     type: hysteria
-    server: 109.104.153.91
-    port: 37519
+    server: 109.104.154.97
+    port: 48429
     ports: 10000
     auth-str: dongtaiwang.com
     up: 80
@@ -166,10 +166,10 @@ proxies:
     skip-cert-verify: true
     alpn:
       - h3
-  - name: NL 🇳🇱-Hysteria | 1-0
+  - name: LU 🇱🇺-Hysteria | 1-0
     type: hysteria
-    server: 109.104.153.91
-    port: 37519
+    server: 109.104.154.97
+    port: 48429
     ports: 10000
     auth-str: dongtaiwang.com
     up: 80
@@ -180,10 +180,10 @@ proxies:
     skip-cert-verify: true
     alpn:
       - h3
-  - name: NL 🇳🇱-Hysteria | 2-0
+  - name: LU 🇱🇺-Hysteria | 2-0
     type: hysteria
-    server: 109.104.153.91
-    port: 37519
+    server: 109.104.154.97
+    port: 48429
     ports: 10000
     auth-str: dongtaiwang.com
     up: 80
@@ -194,10 +194,10 @@ proxies:
     skip-cert-verify: true
     alpn:
       - h3
-  - name: NL 🇳🇱-Hysteria | 3-0
+  - name: LU 🇱🇺-Hysteria | 3-0
     type: hysteria
-    server: 109.104.153.91
-    port: 37519
+    server: 109.104.154.97
+    port: 48429
     ports: 10000
     auth-str: dongtaiwang.com
     up: 80
@@ -266,10 +266,10 @@ proxy-groups:
       - FR 🇫🇷-hysteria | 7-1
       - FR 🇫🇷-hysteria | 8-1
       - FR 🇫🇷-hysteria | 9-1
-      - NL 🇳🇱-Hysteria | 0-0
-      - NL 🇳🇱-Hysteria | 1-0
-      - NL 🇳🇱-Hysteria | 2-0
-      - NL 🇳🇱-Hysteria | 3-0
+      - LU 🇱🇺-Hysteria | 0-0
+      - LU 🇱🇺-Hysteria | 1-0
+      - LU 🇱🇺-Hysteria | 2-0
+      - LU 🇱🇺-Hysteria | 3-0
       - Unknown 🇺🇳-Hysteria2 | 0-0
       - FR 🇫🇷-vless | 0-0
       - FR 🇫🇷-vmess | 1-0
@@ -289,10 +289,10 @@ proxy-groups:
       - FR 🇫🇷-hysteria | 7-1
       - FR 🇫🇷-hysteria | 8-1
       - FR 🇫🇷-hysteria | 9-1
-      - NL 🇳🇱-Hysteria | 0-0
-      - NL 🇳🇱-Hysteria | 1-0
-      - NL 🇳🇱-Hysteria | 2-0
-      - NL 🇳🇱-Hysteria | 3-0
+      - LU 🇱🇺-Hysteria | 0-0
+      - LU 🇱🇺-Hysteria | 1-0
+      - LU 🇱🇺-Hysteria | 2-0
+      - LU 🇱🇺-Hysteria | 3-0
       - Unknown 🇺🇳-Hysteria2 | 0-0
       - FR 🇫🇷-vless | 0-0
       - FR 🇫🇷-vmess | 1-0
@@ -312,10 +312,10 @@ proxy-groups:
       - FR 🇫🇷-hysteria | 7-1
       - FR 🇫🇷-hysteria | 8-1
       - FR 🇫🇷-hysteria | 9-1
-      - NL 🇳🇱-Hysteria | 0-0
-      - NL 🇳🇱-Hysteria | 1-0
-      - NL 🇳🇱-Hysteria | 2-0
-      - NL 🇳🇱-Hysteria | 3-0
+      - LU 🇱🇺-Hysteria | 0-0
+      - LU 🇱🇺-Hysteria | 1-0
+      - LU 🇱🇺-Hysteria | 2-0
+      - LU 🇱🇺-Hysteria | 3-0
       - Unknown 🇺🇳-Hysteria2 | 0-0
       - FR 🇫🇷-vless | 0-0
       - FR 🇫🇷-vmess | 1-0
