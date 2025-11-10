@@ -133,11 +133,11 @@ proxies:
     protocol: udp
     up: 11 Mbps
     down: 55 Mbps
-  - name: LU 🇱🇺-Hysteria | 0-0
+  - name: Unknown 🇺🇳-Hysteria | 0-0
     type: hysteria
-    server: 109.104.154.97
-    port: 48429
-    ports: 10000
+    server: '[2604'
+    port: 6600
+    ports: 6600
     auth-str: dongtaiwang.com
     up: 80
     down: 100
@@ -147,11 +147,11 @@ proxies:
     skip-cert-verify: true
     alpn:
       - h3
-  - name: LU 🇱🇺-Hysteria | 1-0
+  - name: Unknown 🇺🇳-Hysteria | 1-0
     type: hysteria
-    server: 109.104.154.97
-    port: 48429
-    ports: 10000
+    server: '[2604'
+    port: 6600
+    ports: 6600
     auth-str: dongtaiwang.com
     up: 80
     down: 100
@@ -161,11 +161,11 @@ proxies:
     skip-cert-verify: true
     alpn:
       - h3
-  - name: LU 🇱🇺-Hysteria | 2-0
+  - name: Unknown 🇺🇳-Hysteria | 2-0
     type: hysteria
-    server: 109.104.154.97
-    port: 48429
-    ports: 10000
+    server: '[2604'
+    port: 6600
+    ports: 6600
     auth-str: dongtaiwang.com
     up: 80
     down: 100
@@ -175,11 +175,11 @@ proxies:
     skip-cert-verify: true
     alpn:
       - h3
-  - name: LU 🇱🇺-Hysteria | 3-0
+  - name: Unknown 🇺🇳-Hysteria | 3-0
     type: hysteria
-    server: 109.104.154.97
-    port: 48429
-    ports: 10000
+    server: '[2604'
+    port: 6600
+    ports: 6600
     auth-str: dongtaiwang.com
     up: 80
     down: 100
@@ -246,10 +246,10 @@ proxy-groups:
       - FR 🇫🇷-hysteria | 7-1
       - FR 🇫🇷-hysteria | 8-1
       - FR 🇫🇷-hysteria | 9-1
-      - LU 🇱🇺-Hysteria | 0-0
-      - LU 🇱🇺-Hysteria | 1-0
-      - LU 🇱🇺-Hysteria | 2-0
-      - LU 🇱🇺-Hysteria | 3-0
+      - Unknown 🇺🇳-Hysteria | 0-0
+      - Unknown 🇺🇳-Hysteria | 1-0
+      - Unknown 🇺🇳-Hysteria | 2-0
+      - Unknown 🇺🇳-Hysteria | 3-0
       - Unknown 🇺🇳-Hysteria2 | 0-0
       - FR 🇫🇷-vless | 0-0
       - FR 🇫🇷-vmess | 1-0
@@ -269,10 +269,10 @@ proxy-groups:
       - FR 🇫🇷-hysteria | 7-1
       - FR 🇫🇷-hysteria | 8-1
       - FR 🇫🇷-hysteria | 9-1
-      - LU 🇱🇺-Hysteria | 0-0
-      - LU 🇱🇺-Hysteria | 1-0
-      - LU 🇱🇺-Hysteria | 2-0
-      - LU 🇱🇺-Hysteria | 3-0
+      - Unknown 🇺🇳-Hysteria | 0-0
+      - Unknown 🇺🇳-Hysteria | 1-0
+      - Unknown 🇺🇳-Hysteria | 2-0
+      - Unknown 🇺🇳-Hysteria | 3-0
       - Unknown 🇺🇳-Hysteria2 | 0-0
       - FR 🇫🇷-vless | 0-0
       - FR 🇫🇷-vmess | 1-0
