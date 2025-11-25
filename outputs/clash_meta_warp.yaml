@@ -30,11 +30,11 @@ proxies:
       - 1.1.1.1
       - 8.8.8.8
     dialer-proxy: ☁ WARP前置节点
-  - name: FR 🇫🇷-hysteria2 | 0-1
-    type: hysteria2
-    server: 2001:bc8:32d7:302::11
-    port: 20088
-    password: dongtaiwang.com
+  - name: FR 🇫🇷-hysteria | 0-1
+    type: hysteria
+    server: 2001:bc8:32d7:17b::2
+    port: 11000
+    auth-str: dongtaiwang.com
     sni: apple.com
     skip-cert-verify: true
     alpn:
@@ -42,11 +42,11 @@ proxies:
     protocol: udp
     up: 11 Mbps
     down: 55 Mbps
-  - name: FR 🇫🇷-hysteria2 | 1-1
-    type: hysteria2
-    server: 2001:bc8:32d7:302::11
-    port: 20088
-    password: dongtaiwang.com
+  - name: FR 🇫🇷-hysteria | 1-1
+    type: hysteria
+    server: 2001:bc8:32d7:17b::2
+    port: 11000
+    auth-str: dongtaiwang.com
     sni: apple.com
     skip-cert-verify: true
     alpn:
@@ -67,11 +67,11 @@ proxies:
     reduce-rtt: true
     udp-relay-mode: native
     congestion-controller: bbr
-  - name: FR 🇫🇷-hysteria2 | 3-1
-    type: hysteria2
-    server: 2001:bc8:32d7:302::17
-    port: 20088
-    password: dongtaiwang.com
+  - name: FR 🇫🇷-hysteria | 3-1
+    type: hysteria
+    server: 2001:bc8:32d7:17b::2
+    port: 11000
+    auth-str: dongtaiwang.com
     sni: apple.com
     skip-cert-verify: true
     alpn:
@@ -92,11 +92,11 @@ proxies:
     reduce-rtt: true
     udp-relay-mode: native
     congestion-controller: bbr
-  - name: FR 🇫🇷-hysteria2 | 5-1
-    type: hysteria2
-    server: 2001:bc8:32d7:302::17
-    port: 20088
-    password: dongtaiwang.com
+  - name: FR 🇫🇷-hysteria | 5-1
+    type: hysteria
+    server: 2001:bc8:32d7:17b::2
+    port: 11000
+    auth-str: dongtaiwang.com
     sni: apple.com
     skip-cert-verify: true
     alpn:
@@ -256,12 +256,12 @@ proxy-groups:
       - ♻️ 自动选择
       - ⚖ 负载均衡
       - ☁ WARP
-      - FR 🇫🇷-hysteria2 | 0-1
-      - FR 🇫🇷-hysteria2 | 1-1
+      - FR 🇫🇷-hysteria | 0-1
+      - FR 🇫🇷-hysteria | 1-1
       - FR 🇫🇷-tuic | 2-1
-      - FR 🇫🇷-hysteria2 | 3-1
+      - FR 🇫🇷-hysteria | 3-1
       - FR 🇫🇷-tuic | 4-1
-      - FR 🇫🇷-hysteria2 | 5-1
+      - FR 🇫🇷-hysteria | 5-1
       - FR 🇫🇷-hysteria | 6-1
       - FR 🇫🇷-hysteria | 7-1
       - FR 🇫🇷-hysteria | 8-1
@@ -279,12 +279,12 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - FR 🇫🇷-hysteria2 | 0-1
-      - FR 🇫🇷-hysteria2 | 1-1
+      - FR 🇫🇷-hysteria | 0-1
+      - FR 🇫🇷-hysteria | 1-1
       - FR 🇫🇷-tuic | 2-1
-      - FR 🇫🇷-hysteria2 | 3-1
+      - FR 🇫🇷-hysteria | 3-1
       - FR 🇫🇷-tuic | 4-1
-      - FR 🇫🇷-hysteria2 | 5-1
+      - FR 🇫🇷-hysteria | 5-1
       - FR 🇫🇷-hysteria | 6-1
       - FR 🇫🇷-hysteria | 7-1
       - FR 🇫🇷-hysteria | 8-1
@@ -302,12 +302,12 @@ proxy-groups:
     interval: 300
     strategy: consistent-hashing
     proxies:
-      - FR 🇫🇷-hysteria2 | 0-1
-      - FR 🇫🇷-hysteria2 | 1-1
+      - FR 🇫🇷-hysteria | 0-1
+      - FR 🇫🇷-hysteria | 1-1
       - FR 🇫🇷-tuic | 2-1
-      - FR 🇫🇷-hysteria2 | 3-1
+      - FR 🇫🇷-hysteria | 3-1
       - FR 🇫🇷-tuic | 4-1
-      - FR 🇫🇷-hysteria2 | 5-1
+      - FR 🇫🇷-hysteria | 5-1
       - FR 🇫🇷-hysteria | 6-1
       - FR 🇫🇷-hysteria | 7-1
       - FR 🇫🇷-hysteria | 8-1
